@@ -1,10 +1,10 @@
-version: '3.3'
+version: '2'
 services:
-  snake:
-    image: 'amrit96/snake'
-    environment:
-      - "PORT:3000"
-    ports:
-      - "80:3000"
-    volumes:
-      - ./:/app
+ snake:
+   image: 'keopython1/snake:new'
+   
+   environment:
+     PORT: '3000'
+
+   ports:
+     - '80:3000'
